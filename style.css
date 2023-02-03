@@ -32,3 +32,9 @@ ul li {
 #header-td{
     padding-right: 15px;
 }
+
+@media only screen and (max-width: 767px) {
+h1, h2 {
+font-size: 30px;
+}
+}
