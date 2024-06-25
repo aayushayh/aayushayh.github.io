@@ -81,33 +81,3 @@ p{
     text-decoration: none;
     cursor: pointer;
   }
-@media only screen and (max-width: 480px) {
-  .navbar {
-    padding: 0; /* reduce padding */
-    font-size: 30px; /* reduce font size */
-  }
-
-  .navbar ul {
-    flex-direction: column; /* change layout to vertical */
-  }
-
-  .navbar li {
-    margin-right: 0px; /* reduce margin */
-  }
-
-  .navbar li a {
-    font-size: 30px; /* reduce font size of menu items */
-  }
-
-  /* Add a hamburger menu icon */
-  .navbar .hamburger {
-    display: block; /* show hamburger menu icon */
-    font-size: 24px;
-    cursor: pointer;
-  }
-
-  /* Hide the logo on mobile */
-  .navbar .logo {
-    display: none; /* hide logo on mobile */
-  }
-}
