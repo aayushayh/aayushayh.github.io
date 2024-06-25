@@ -1,8 +1,7 @@
 body{
     font-family: Tahoma, Arial, sans-serif;
     font-size: 14px;
-    margin: 20px 20px 20px 20px;
-    width: 900px;
+    
 }
 
 a:link, a:visited{
@@ -37,4 +36,78 @@ ul li {
 h1, h2, p {
 font-size: 30px;
 }
+}
+h2{
+    margin: 20px 20px 20px 20px;
+    width: 900px;
+}
+p{
+    margin: 20px 20px 20px 20px;
+    width: 900px;
+}
+.navbar {
+    background-color: #f7f7f7; /* grey background */
+    padding: 1em;
+    text-align: left;
+    margin: 0!important;
+    border-radius: 13px;
+  }
+
+ .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    font-family: fantasy;
+    font-size: 18px;
+    font-style: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    align-items: center;
+  }
+
+ .navbar li {
+    margin-right: 30px;
+  }
+
+ .navbar a {
+    color: #333;
+    text-decoration: none;
+  }
+
+ .navbar a:hover {
+    color: #B96A17;
+    text-decoration: none;
+    cursor: pointer;
+  }
+@media only screen and (max-width: 480px) {
+  .navbar {
+    padding: 0; /* reduce padding */
+    font-size: 30px; /* reduce font size */
+  }
+
+  .navbar ul {
+    flex-direction: column; /* change layout to vertical */
+  }
+
+  .navbar li {
+    margin-right: 0px; /* reduce margin */
+  }
+
+  .navbar li a {
+    font-size: 30px; /* reduce font size of menu items */
+  }
+
+  /* Add a hamburger menu icon */
+  .navbar .hamburger {
+    display: block; /* show hamburger menu icon */
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Hide the logo on mobile */
+  .navbar .logo {
+    display: none; /* hide logo on mobile */
+  }
 }
