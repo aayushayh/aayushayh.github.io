@@ -51,6 +51,9 @@ p{
     font-size: 12px;
     font-family: serif;
 }
+/*img#profile:hover {
+  transform: scale(1.00009);
+}*/
 .navbar {
     background-color: #f7f7f7; /* grey background */
     padding: 1em;
