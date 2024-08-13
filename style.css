@@ -1,6 +1,6 @@
 body{
     font-family: Tahoma, Arial, sans-serif;
-    font-size: 2vw;
+    font-size: 14px;
 }
 
 a:link, a:visited{
@@ -47,7 +47,7 @@ h2{
 p{
     margin: 20px 20px 20px 20px;
     width: 900px;
-    font-size: 1.5vw;
+    font-size: 12px;
     font-family: serif;
 }
 /*img#profile:hover {
