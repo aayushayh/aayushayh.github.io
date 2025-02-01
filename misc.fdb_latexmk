@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1738436533.07195 "/Users/aayushayh/Dropbox/Personal/aayushayh.github.io/misc.html" "misc.pdf" "misc" 1738436533.22038 2
+  "/Users/aayushayh/Dropbox/Personal/aayushayh.github.io/misc.html" 1738436532.86743 1589 7dfcad99b5317bfe1f6d06b47a45cb68 ""
+  "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
+  "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1734008830 7536473 22aed3d2bf79f656bb6e497ce71e6df7 ""
+  "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
+  "misc.aux" 1738436533.07155 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "misc.html" 1738436532.86743 1589 7dfcad99b5317bfe1f6d06b47a45cb68 ""
+  (generated)
+  "misc.aux"
+  "misc.log"
+  "misc.pdf"
+  (rewritten before read)

@@ -1,0 +1,6 @@
+PWD /Users/aayushayh/Dropbox/Personal/aayushayh.github.io
+INPUT /usr/local/texlive/2024basic/texmf.cnf
+INPUT /usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/aayushayh/Dropbox/Personal/aayushayh.github.io/misc.html
+OUTPUT misc.log
