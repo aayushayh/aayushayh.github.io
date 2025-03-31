@@ -94,3 +94,11 @@ p{
     text-decoration: none;
     cursor: pointer;
   }
+  footer{
+    text-align: right;
+    bottom: 0;
+/*    font-weight: light;*/
+/*    position: static;*/
+    width: 100%;
+
+  }
