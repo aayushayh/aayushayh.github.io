@@ -1,6 +1,18 @@
+ html {
+        height:100%;
+        padding:0 0.5% 0 0.5%;
+        background-color:white;
+    }
 body{
 /*    font-family: Tahoma, Arial, sans-serif;*/
     font-size: 17px;
+    max-width:1000px;
+        min-height:96%;
+        padding: 0.1px 25px 0.1px 25px;
+        margin:auto;
+        margin-top:1.5%;
+        margin-bottom:0.5%;
+        background-color:white;
 }
 
 a:link, a:visited{
@@ -39,22 +51,7 @@ font-size: 30px;
 
 
 
-    html {
-        height:100%;
-        padding:0 0.5% 0 0.5%;
-        background-color:white;
-    }
-
-    body {
-        max-width:1000px;
-        min-height:96%;
-        padding: 0.1px 25px 0.1px 25px;
-        margin:auto;
-        margin-top:1.5%;
-        margin-bottom:0.5%;
-        background-color:white;
-    
-}
+   
 
 h2{
     margin: 20px 20px 20px 20px;
