@@ -15,7 +15,7 @@ a:hover{
 }
 
 #display_pic{
-    width: 250px;
+    width: 240px;
 }
 
 ul li {
@@ -31,45 +31,10 @@ ul li {
     padding-right: 15px;
 }
 
-/*@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 h1, h2, p {
 font-size: 30px;
 }
-}*/
-/*SMALL SCREENS*/
-@media only screen and (max-width:800px) {
-    body {
-        padding-left:2%;
-        padding-right:2%;
-        
-    }
-    .bigscreen {
-        display:none;
-    }
-    .smallscreen {
-        width:100%; 
-        height:auto;
-    }
-    #sphsmall {
-        max-width:400px;
-        display:block;
-        margin:auto;
-    }
-    #phsmall {
-        max-width:250px;
-        heigth:auto;
-        display:block;
-    }
-}
-
-
-@media only screen and (min-width:801px) {
-    body {
-        margin:0 25px 0 25px;
-    }
-    .smallscreen {
-        display:none;
-    }
 }
 
 
