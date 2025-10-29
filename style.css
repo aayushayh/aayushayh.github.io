@@ -1,18 +1,13 @@
-/* html {
-        height:100%;
-        padding:0 0.5% 0 0.5%;
-        background-color:white;
-    }*/
+/* Your existing desktop styles remain unchanged */
 body{
-/*    font-family: Tahoma, Arial, sans-serif;*/
     font-size: 17px;
     max-width:1000px;
-        min-height:96%;
-        padding: 0.1px 25px 0.1px 25px;
-        margin:auto;
-        margin-top:1.5%;
-        margin-bottom:0.5%;
-        background-color:white;
+    min-height:96%;
+    padding: 0.1px 25px 0.1px 25px;
+    margin:auto;
+    margin-top:1.5%;
+    margin-bottom:0.5%;
+    background-color:white;
 }
 
 a:link, a:visited{
@@ -43,17 +38,6 @@ ul li {
     padding-right: 15px;
 }
 
-@media only screen and (max-width: 767px) {
-h1, h2, p {
-font-size: 30px;
-}
-width: auto
-}
-
-
-
-   
-
 h2{
     margin: 20px 20px 20px 20px;
     width: 900px;
@@ -61,27 +45,23 @@ h2{
     font-variant: small-caps;
     font-size: 22px;
 }
+
 p{
     margin: 20px 20px 20px 20px;
     width: 900px;
     font-size: 16px;
     font-family: "Georgia", serif;
-/*    font-smooth: auto;*/
-/*    max-width: 750px;*/
-
 }
-/*img#profile:hover {
-  transform: scale(1.00009);
-}*/
+
 .navbar {
-    background-color: #f7f7f7; /* grey background */
+    background-color: #f7f7f7;
     padding: 1em;
     text-align: left;
     margin: 0!important;
     border-radius: 13px;
-  }
+}
 
- .navbar ul {
+.navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -94,28 +74,94 @@ p{
     margin-left: 10px;
     align-items: center;
     font-variant: small-caps;
-  }
+}
 
- .navbar li {
+.navbar li {
     margin-right: 30px;
-  }
+}
 
- .navbar a {
+.navbar a {
     color: #333;
     text-decoration: none;
-/*    font-weight: 500;*/
-  }
+}
 
- .navbar a:hover {
+.navbar a:hover {
     color: #B96A17;
     text-decoration: none;
     cursor: pointer;
-  }
-  footer{
+}
+
+footer{
     text-align: right;
     bottom: 0;
-/*    font-weight: light;*/
-/*    position: static;*/
     width: 100%;
+}
 
-  }
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding: 10px 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    h1 {
+        text-align: center;
+        margin: 15px 0 10px 0;
+        font-size: 26px;
+    }
+    
+    #profile{
+        width: 40%;
+        max-width: 140px;
+        display: block;
+        margin: 10px auto !important; 
+        float: none !important;
+    }
+    h1, h2, p, div {
+        clear: both;
+    }
+    
+    h2 {
+        width: 100% !important;
+        margin: 15px 10px !important;
+        font-size: 20px !important;
+    }
+    
+    p {
+        width: 100% !important;
+        margin: 15px 10px !important;
+        font-size: 15px !important;
+    }
+    
+    .navbar {
+        padding: 8px;
+        margin: 10px 0 !important;
+    }
+    
+   /* .navbar ul {
+        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    */
+    .navbar li {
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+    
+    #header-table {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    footer {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
+
+
+
