@@ -119,6 +119,13 @@ footer{
         margin: 10px auto !important; 
         float: none !important;
     }
+    #ptos{
+         max-width: 100%;
+  height: auto !important;
+        display: block;
+        margin: 10px auto !important; 
+        float: none !important;
+    }
     h1, h2, p, div {
         clear: both;
     }
